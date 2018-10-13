@@ -3,6 +3,7 @@
     column
     justify-center
     align-center>
+    <h1 class="font-weight-thin">nuxt-Drawing</h1>
     <v-flex xs12 sm8 md6>
       <canvas width="512" height="512" ref="canvas" id="canvas"
               @touchstart="touchStart" @touchmove="touchMove" @touchend="touchEnd" />
