@@ -60,5 +60,8 @@ module.exports = {
     extend(config, ctx) {
 
     }
+  },
+  generate: {
+    dir: 'docs/'
   }
 }
